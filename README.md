@@ -1,3 +1,5 @@
+**[ENG]**
+
 # Hostbox[+](https://hostbox.pe/)
 
 Hostbox+ is an open-source solution designed to efficiently and flexibly manage hosting companies.
@@ -9,6 +11,8 @@ Our philosophy is based on the belief that technology should be accessible, reli
 We value transparency, innovation, and a commitment to customer satisfaction, always prioritizing the optimization of our services. We are dedicated to maintaining an open and collaborative environment, fostering community and knowledge exchange with a constant focus on improvement and efficiency.
 
 We continuously seek ways to adapt to the changing needs of the market, always with a focus on excellence and environmental responsibility. In summary, our philosophy is to make hosting management more accessible, reliable, and sustainable, with an unwavering commitment to optimization in all aspects of our business.
+
+**[ESP]**
 
 # Hostbox[+](https://hostbox.pe/)
 
