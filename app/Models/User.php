@@ -69,6 +69,16 @@ class User extends Authenticatable
         return $this->hasMany(ActivityLog::class);
     }
 
+    public function todoLists()
+    {
+        return $this->hasMany(TodoList::class);
+    }
+
+    public function carts()
+    {
+        return $this->hasMany(Cart::class);
+    }
+
     protected $appends = [
         'profile_photo_url',
     ];
