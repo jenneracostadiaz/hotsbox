@@ -79,6 +79,36 @@ class User extends Authenticatable
         return $this->hasMany(Cart::class);
     }
 
+    public function invoices()
+    {
+        return $this->hasMany(Invoice::class);
+    }
+
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
+
+    public function invoices_items()
+    {
+        return $this->hasMany(InvoiceItem::class);
+    }
+
+    public function payment()
+    {
+        return $this->hasMany(Payment::class);
+    }
+
+    public function domains()
+    {
+        return $this->hasMany(Domain::class);
+    }
+
+    public function hostings()
+    {
+        return $this->hasMany(Hosting::class);
+    }
+
     protected $appends = [
         'profile_photo_url',
     ];

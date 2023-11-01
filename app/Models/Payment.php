@@ -5,19 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Currency extends Model
+class Payment extends Model
 {
     use HasFactory;
 
     protected $guarded = [];
 
-    public function invoice()
+    public function user()
     {
-        return $this->hasMany(Invoice::class);
+        return $this->belongsTo(User::class);
     }
 
-    public function pricing()
+    public function product()
     {
-        return $this->hasMany(Pricing::class);
+        return $this->hasOne(Product::class);
     }
 }
